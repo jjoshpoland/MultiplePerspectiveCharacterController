@@ -561,34 +561,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6753589842634422756, guid: aa9f54da05d42f849903ad5d1caa2f6c, type: 3}
-      propertyPath: m_Lens.NearClipPlane
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6753589842634422756, guid: aa9f54da05d42f849903ad5d1caa2f6c, type: 3}
-      propertyPath: m_Lens.m_SensorSize.x
-      value: 1.4682081
-      objectReference: {fileID: 0}
-    - target: {fileID: 6753589842634422757, guid: aa9f54da05d42f849903ad5d1caa2f6c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6753589842634422757, guid: aa9f54da05d42f849903ad5d1caa2f6c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6753589842634422758, guid: aa9f54da05d42f849903ad5d1caa2f6c, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6753589842921582481, guid: aa9f54da05d42f849903ad5d1caa2f6c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6753589843597134733, guid: aa9f54da05d42f849903ad5d1caa2f6c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6753589843867282577, guid: aa9f54da05d42f849903ad5d1caa2f6c, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -634,32 +606,34 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6753589843867282579, guid: aa9f54da05d42f849903ad5d1caa2f6c, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"Move","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"LookSpeed","value":{"$content":90.0,"$type":"System.Single"},"$version":"A"},{"name":"SprintSpeedModifier","value":{"$content":1.5,"$type":"System.Single"},"$version":"A"},{"name":"JumpForce","value":{"$content":6.0,"$type":"System.Single"},"$version":"A"},{"name":"LockFacing","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"OrientationReference","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CharacterObject","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"FP-Pivot","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"FP-LookSpeed","value":{"$content":0.25,"$type":"System.Single"},"$version":"A"},{"name":"TP
+        VCM","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"FP
+        VCM","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753589843867282579, guid: aa9f54da05d42f849903ad5d1caa2f6c, type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 963194228}
     - target: {fileID: 6753589843867282583, guid: aa9f54da05d42f849903ad5d1caa2f6c, type: 3}
-      propertyPath: m_Avatar
-      value: 
-      objectReference: {fileID: 9000000, guid: 36078ab0369161e49a29d349ae3e0739, type: 3}
-    - target: {fileID: 6753589843867282583, guid: aa9f54da05d42f849903ad5d1caa2f6c, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 40db3173a05ae3242b1c182a09b0a183, type: 2}
+      propertyPath: m_CullingMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753589843867282589, guid: aa9f54da05d42f849903ad5d1caa2f6c, type: 3}
+      propertyPath: m_Height
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753589843867282589, guid: aa9f54da05d42f849903ad5d1caa2f6c, type: 3}
+      propertyPath: m_Radius
+      value: 0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753589843867282589, guid: aa9f54da05d42f849903ad5d1caa2f6c, type: 3}
+      propertyPath: m_Center.y
+      value: 0.93
+      objectReference: {fileID: 0}
     - target: {fileID: 6753589843867282590, guid: aa9f54da05d42f849903ad5d1caa2f6c, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 6753589844311021120, guid: aa9f54da05d42f849903ad5d1caa2f6c, type: 3}
-      propertyPath: m_FollowOffset.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6753589844311021120, guid: aa9f54da05d42f849903ad5d1caa2f6c, type: 3}
-      propertyPath: m_FollowOffset.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7896628829732197684, guid: aa9f54da05d42f849903ad5d1caa2f6c, type: 3}
-      propertyPath: m_UpdateWhenOffscreen
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa9f54da05d42f849903ad5d1caa2f6c, type: 3}
