@@ -794,7 +794,7 @@ GameObject:
   - component: {fileID: 1406775492}
   - component: {fileID: 1406775491}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: BigCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -823,7 +823,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1406775490}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 4a735f2cbebc0ae4daee61670e72073d, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2

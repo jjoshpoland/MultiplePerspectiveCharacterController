@@ -42,7 +42,7 @@ public class UpdateCinemachineFollowDistance : Unit
             maxZoom = flow.GetValue<float>(MaxZoom);
             
             Cinemachine3rdPersonFollow bodyComponent = camera.GetComponent<CinemachineVirtualCamera>().GetCinemachineComponent(CinemachineCore.Stage.Body) as Cinemachine3rdPersonFollow;
-            bodyComponent.CameraDistance = Mathf.Clamp(bodyComponent.CameraDistance +  zoom, 0, maxZoom);
+            bodyComponent.CameraDistance = Mathf.Clamp(zoom, 0, maxZoom);
             newZoom = bodyComponent.CameraDistance;
             return outputTrigger; });
         //Making the ControlOutput port visible and setting its key.
