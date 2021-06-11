@@ -1,6 +1,6 @@
 ![](MVCCPreview.gif)
 
-This character controller takes inspiration from the new example Unity First Person and Third Person character controller assets. I have rebuilt them (for the most part) in Unity Visual Scripting. As of writing this, there are not a lot of great Visual Scripting examples or assets, so I wanted to share my work.
+This character controller takes inspiration from the new example Unity First Person and Third Person character controller assets. I have rebuilt them (for the most part) in Unity Visual Scripting. As of writing this, there are not a lot of great Visual Scripting examples or assets, so I wanted to share my work. There are a couple custom Visual Scripting units that you are free to pull from as well.
 
 From a design perspective, using a controller like this has multiple advantages:
 - Many players have a strong preference on third vs first person, this allows you to accomodate both
