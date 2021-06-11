@@ -1,3 +1,5 @@
+![](MVCCPreview.gif)
+
 This character controller takes inspiration from the new example Unity First Person and Third Person character controller assets. I have rebuilt them (for the most part) in Unity Visual Scripting. As of writing this, there are not a lot of great Visual Scripting examples or assets, so I wanted to share my work.
 
 From a design perspective, using a controller like this has multiple advantages:
