@@ -28,6 +28,8 @@ Primary Variables:
 - FP VCM: The Cinemachine virtual camera used for First Person view. Disabled and enabled for view switching.
 - Jumping: Set to true if conditions are met and then set to false if the player cannot jump or if the jump has been processed. The boolean is easier to sync across multiplayer than a custom event or animation trigger.
 
+![](graph.png)
+
 There are three main graphs:
 - Movement Handler: Moves the player relative to the Orientation Reference (camera by default). Handles jumping, falling, landing, turning the character, rotating the camera, and setting animator parameters.
   - The RelativeMovement variable is the result of converting the input from an absolute input vector into an angle away from the current OrientationReference. 
