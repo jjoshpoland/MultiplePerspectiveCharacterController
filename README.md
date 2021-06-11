@@ -1,5 +1,8 @@
+# Multiple Perspective Character Controller #
+
 ![](MVCCPreview.gif)
 
+## About ##
 This character controller takes inspiration from the new example Unity First Person and Third Person character controller assets. I have rebuilt them (for the most part) in Unity Visual Scripting. As of writing this, there are not a lot of great Visual Scripting examples or assets, so I wanted to share my work. There are a couple custom Visual Scripting units that you are free to pull from as well.
 
 From a design perspective, using a controller like this has multiple advantages:
@@ -9,6 +12,7 @@ From a design perspective, using a controller like this has multiple advantages:
 
 ![](MVCC-FP.gif)
 
+## Key Information ##
 The variables and logic are containerized so that the movement and rotation of the character can be assigned by an AI and can be synced in multiplayer if needed.
 
 Right now the first person view is working with the Unity single-mesh robot character, so it will sometimes clip through the camera. In your first-person game, parts of the mesh should be hidden to prevent this. There is also a multi-camera, multi-layer setup that some people use for first person view. If your game is primarily third person, hiding the character mesh during first person view is the easiest and best option.
@@ -28,6 +32,7 @@ Primary Variables:
 - FP VCM: The Cinemachine virtual camera used for First Person view. Disabled and enabled for view switching.
 - Jumping: Set to true if conditions are met and then set to false if the player cannot jump or if the jump has been processed. The boolean is easier to sync across multiplayer than a custom event or animation trigger.
 
+## Visual Scripting ##
 ![](graph.png)
 
 There are three main graphs:
@@ -54,6 +59,8 @@ There are three main graphs:
 
 Change graph variables at your own risk.
 
+## Events to Use in Your Project ##
+
 Custom Events List:
 - OnJump: called when a jump is processed
 - OnLanded: called when the character touches the ground after being in the air
@@ -61,6 +68,9 @@ Custom Events List:
 - OnFP: called when the camera switches to First Person View
 - OnTP: called when the camera switches to Third Person View
 - OnRBPush: called every frame where the player controller is colliding with a non-kinematic rigidbody that can be pushed
+
+
+## Custom Visual Scripting Units ##
 
 Custom Units:
 - Check Layer Mask: Takes a layer (an int from Game Object => Get Layer, for example) and a LayerMask and checks if the layer is in the layer mask and returns true if so
