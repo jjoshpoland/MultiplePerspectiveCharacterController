@@ -7,6 +7,8 @@ From a design perspective, using a controller like this has multiple advantages:
 - Even in a first person game, many people want to admire their character from many angles
 - Forcing the player to switch between first and third person in some situations is necessary for mood or mechanics. For example, switching from first to third person for ultimate abilities in (see Destiny 2) or for story/cut scenes where the player is not in control of their character. Conversely, switching from third to first person when using a precise aiming ability, in tight spaces where the camera is constrained, or for those scenes where immersion is more important.
 
+![](MVCC-FP.gif)
+
 The variables and logic are containerized so that the movement and rotation of the character can be assigned by an AI and can be synced in multiplayer if needed.
 
 Right now the first person view is working with the Unity single-mesh robot character, so it will sometimes clip through the camera. In your first-person game, parts of the mesh should be hidden to prevent this. There is also a multi-camera, multi-layer setup that some people use for first person view. If your game is primarily third person, hiding the character mesh during first person view is the easiest and best option.
@@ -45,6 +47,8 @@ There are three main graphs:
   - CanPush - this character will only push rigidbodies if this is set to true
   - PushLayers is a LayerMask that is used to determine if the rigidbody hit is in a pushable layer. Make sure any rigidbodies you want to push are set to a layer that is selected in this mask.
   - Strength is the force multiplier applied to the object from the force of the character's movement
+
+![](MVCC-RB.gif)
 
 Change graph variables at your own risk.
 
