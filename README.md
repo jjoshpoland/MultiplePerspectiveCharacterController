@@ -1,4 +1,5 @@
 # Multiple Perspective Character Controller #
+Third Person/First Person
 
 ![](MVCCPreview.gif)
 
