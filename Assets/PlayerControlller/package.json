@@ -1,0 +1,13 @@
+{
+  "name": "com.jjoshpoland.mpcc",
+  "version": "1.0.0",
+  "displayName": "Multiple Perspective Character Controller",
+  "description": "Visual Scripting Graphs for a Character Controller with multiple camera perspectives.",
+  "unity": "2021.1",
+  "unityRelease": "10f1",
+  "author": {
+    "name": "Josh Poland",
+    "email": "jjoshpoland@protonmail.com"
+    
+  }
+}
