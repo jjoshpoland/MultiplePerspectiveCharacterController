@@ -6,6 +6,8 @@ Third Person/First Person
 ## About ##
 This character controller takes inspiration from the new example Unity First Person and Third Person character controller assets. I have rebuilt them (for the most part) in Unity Visual Scripting. As of writing this, there are not a lot of great Visual Scripting examples or assets, so I wanted to share my work. There are a couple custom Visual Scripting units that you are free to pull from as well.
 
+Use the SourceOnly branch to pull just the assets down to import into a project. There may be some Unity errors associated with deserializing graphs that were moved from another project, but those should go away after opening all the graphs.
+
 From a design perspective, using a controller like this has multiple advantages:
 - Many players have a strong preference on third vs first person, this allows you to accomodate both
 - Even in a first person game, many people want to admire their character from many angles
